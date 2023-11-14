@@ -1,0 +1,50 @@
+POST http://localhost:5500/api/item
+Content-Type: application/json
+
+{
+    "task": "check"
+}
+
+##################################
+
+GET  http://localhost:5500/api/item
+Content-Type: application/json
+
+#####################
+
+PUT  http://localhost:5500/api/item/655150edc6cfad4f86956cb2
+Content-Type: application/json
+
+{
+    "task": "check"
+}
+
+######################
+DELETE  http://localhost:5500/api/item/6550f16c3aa4cba964a2dae4
+Content-Type: application/json
+
+####################
+
+
+GET  http://localhost:5500/api/stat
+Content-Type: application/json
+
+
+#####################
+
+POST http://localhost:5500/api/stat
+Content-Type: application/json
+
+{
+    "percent": 100,
+    "total": 1, 
+    "numCheck": 1
+}
+
+####################
+PUT  http://localhost:5500/api/stat/655285310ba7219d1bb06276
+Content-Type: application/json
+
+{
+    "task": "check"
+}

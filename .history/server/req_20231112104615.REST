@@ -1,0 +1,22 @@
+POST http://localhost:5500/api/item
+Content-Type: application/json
+
+{
+    "task": "this is the second test"
+}
+
+##################################
+
+GET  http://localhost:5500/api/item
+Content-Type: application/json
+
+#####################
+
+PUT  http://localhost:5500/api/item/6550f16c3aa4cba964a2dae4
+Content-Type: application/json
+
+{
+    "task": "this is the second test"
+}
+
+
